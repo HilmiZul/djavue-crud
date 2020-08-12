@@ -3,10 +3,13 @@
 cd school
 ```
 ```
+virtualenv .env
+```
+```
 source .env/bin/activate
 ```
 ```
-pip install django==2.2.13 djangorestframework
+pip install django==2.2.13 djangorestframework django-cors-headers
 ```
 
 ## Run backend
